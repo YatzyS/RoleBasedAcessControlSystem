@@ -1,7 +1,7 @@
 class Utilities {
 	
 	static getMongoDBURL() {
-		return process.enb.MONGODB_URI;
+		return process.env.MONGODB_URI;
 	}
 	
 	static getDBName() {
